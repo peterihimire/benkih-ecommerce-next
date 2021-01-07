@@ -1,0 +1,24 @@
+{
+  "name": "benkih-ecommerce-next",
+  "version": "1.0.0",
+  "description": "my ecommerce next project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "ecommerce",
+    "benkih",
+    "next",
+    "store"
+  ],
+  "author": "Peter Ihimire",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
