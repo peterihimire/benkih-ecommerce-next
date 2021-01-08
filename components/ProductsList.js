@@ -1,7 +1,10 @@
 import React from "react";
 import ProductItem from "./ProductItem";
 
+
 const ProductsList = (props) => {
+  console.log(props);
+  console.log(props.items);
   if (props.items.length === 0) {
     return (
       <div>
@@ -12,6 +15,7 @@ const ProductsList = (props) => {
   return (
     <ul>
       {props.items.map((product) => {
+        // console.log(product)
         <ProductItem
           key={product.id}
           id={product.id}
