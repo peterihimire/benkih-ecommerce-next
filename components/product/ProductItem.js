@@ -1,11 +1,11 @@
 import React from "react";
 
 const ProductItem = (props) => {
-  console.log(props);
+  console.log(props.id);
   return (
     <li>
       <article>
-        <img src={props.image} alt={props.name} />
+        <img src={props.image} alt={props.name} width='200px' />
         <div className="">
           <h5>{props.name}</h5>
         </div>

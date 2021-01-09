@@ -1,7 +1,6 @@
 import React from "react";
 import ProductItem from "./ProductItem";
 
-
 const ProductsList = (props) => {
   console.log(props);
   console.log(props.items);
@@ -14,7 +13,7 @@ const ProductsList = (props) => {
   }
   return (
     <ul>
-      {props.items.map((product) => {
+      {props.items.map((product) => (
         // console.log(product)
         <ProductItem
           key={product.id}
@@ -24,8 +23,8 @@ const ProductsList = (props) => {
           amount={product.amount}
           price={product.price}
           slug={product.slug}
-        />;
-      })}
+        />
+      ))}
     </ul>
   );
 };
