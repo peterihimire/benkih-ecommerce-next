@@ -10,6 +10,8 @@ const products = () => {
       price: 99.99,
       slug: "nike-airforce-1",
       image: "/sneaker1.jpg",
+      description:
+        "This is to me one of the best nike sneaker air-soles of all time. I am a fan, big time. So next time you see me rocking a sneakers it should definitly be a nike airforce 1 07 triple white, hope you got it.",
     },
     {
       id: "p2",
@@ -18,6 +20,8 @@ const products = () => {
       price: 199.99,
       slug: "air-jordan-97",
       image: "/sneaker2.jpg",
+      description:
+        "This is to me one of the best nike sneaker air-soles of all time. I am a fan, big time. So next time you see me rocking a sneakers it should definitly be a nike airforce 1 07 triple white, hope you got it.",
     },
     {
       id: "p3",
@@ -26,6 +30,8 @@ const products = () => {
       price: 139.99,
       slug: "nike-airmax-00",
       image: "/sneaker3.jpg",
+      description:
+        "This is to me one of the best nike sneaker air-soles of all time. I am a fan, big time. So next time you see me rocking a sneakers it should definitly be a nike airforce 1 07 triple white, hope you got it.",
     },
     {
       id: "p4",
@@ -34,6 +40,8 @@ const products = () => {
       price: 179.99,
       slug: "nike-airforce-1-high-black",
       image: "/sneaker4.jpg",
+      description:
+        "This is to me one of the best nike sneaker air-soles of all time. I am a fan, big time. So next time you see me rocking a sneakers it should definitly be a nike airforce 1 07 triple white, hope you got it.",
     },
     {
       id: "p5",
@@ -42,6 +50,8 @@ const products = () => {
       price: 409.99,
       slug: "nike-airforce-1-white",
       image: "/sneaker5.jpg",
+      description:
+        "This is to me one of the best nike sneaker air-soles of all time. I am a fan, big time. So next time you see me rocking a sneakers it should definitly be a nike airforce 1 07 triple white, hope you got it.",
     },
     {
       id: "p6",
@@ -50,6 +60,8 @@ const products = () => {
       price: 109.99,
       slug: "nike-airmax-07",
       image: "/sneaker6.jpg",
+      description:
+        "This is to me one of the best nike sneaker air-soles of all time. I am a fan, big time. So next time you see me rocking a sneakers it should definitly be a nike airforce 1 07 triple white, hope you got it.",
     },
     {
       id: "p7",
@@ -58,6 +70,8 @@ const products = () => {
       price: 129.99,
       slug: "nike-airforce-1-red-on-white",
       image: "/sneaker7.jpg",
+      description:
+        "This is to me one of the best nike sneaker air-soles of all time. I am a fan, big time. So next time you see me rocking a sneakers it should definitly be a nike airforce 1 07 triple white, hope you got it.",
     },
     {
       id: "p8",
@@ -66,6 +80,8 @@ const products = () => {
       price: 399.99,
       slug: "air-jordan-white-on-grey",
       image: "/sneaker8.jpg",
+      description:
+        "This is to me one of the best nike sneaker air-soles of all time. I am a fan, big time. So next time you see me rocking a sneakers it should definitly be a nike airforce 1 07 triple white, hope you got it.",
     },
   ];
   return (
