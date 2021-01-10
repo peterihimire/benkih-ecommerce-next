@@ -7,8 +7,8 @@ const navbar = (props) => {
       <div className="navbar-center">
         <div className="navbar-container">
           <div className="navbar-header">
-            <Link href="/" className="brand-logo">
-              <a>
+            <Link href="/">
+              <a className="brand-logo">
                 <strong> benkih</strong>
               </a>
             </Link>
@@ -35,7 +35,7 @@ const navbar = (props) => {
               </Link>
             </li>
           </ul>
-          <div className="navbar-btn" onClick=''>
+          <div className="navbar-btn" onClick="">
             <button>menu</button>
           </div>
         </div>
