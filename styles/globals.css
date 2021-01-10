@@ -94,5 +94,23 @@ h2,
 h3,
 h4 {
   font-family: var(--sec-font-bold);
-  /* letter-spacing: -2px; */
+  letter-spacing: -2px;
+}
+
+/* LAPTOP */
+@media (min-width: 993px) {
+}
+/* TABLET */
+@media (max-width: 992px) {
+}
+@media screen and (min-width: 768px) {
+}
+/* PHONE */
+@media (max-width: 600px) {
+  .hidden-xs {
+    display: none !important;
+  }
+  .visible-xs {
+    display: block !important;
+  }
 }

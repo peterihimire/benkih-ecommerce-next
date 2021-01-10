@@ -1,6 +1,46 @@
 import React from "react";
+import Link from "next/link";
 
 const navbar = (props) => {
-  return <h4>This is a navbar component</h4>;
+  return (
+    <nav className="navbar">
+      <div className="navbar-center">
+        <div className="navbar-container">
+          <div className="navbar-header">
+            <Link href="/" className="brand-logo">
+              <a>
+                <strong> benkih</strong>
+              </a>
+            </Link>
+          </div>
+          <ul className="navbar-links">
+            <li className="navbar-item">
+              <Link href="/">
+                <a className="navbar-single-link">home</a>
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link href="/about">
+                <a className="navbar-single-link">about</a>
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link href="/services">
+                <a className="navbar-single-link">services</a>
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link href="/contact">
+                <a className="navbar-single-link">contact</a>
+              </Link>
+            </li>
+          </ul>
+          <div className="navbar-btn" onClick=''>
+            <button>menu</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
 };
 export default navbar;
