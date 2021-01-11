@@ -35,8 +35,13 @@ const navbar = (props) => {
               </Link>
             </li>
             <li className="navbar-item">
+              <Link href="/contact">
+                <a className="navbar-single-link">login</a>
+              </Link>
+            </li>
+            <li className="navbar-item">
               <Link href="/">
-                <button className="btn">login</button>
+                <button className="btn">sign up</button>
               </Link>
             </li>
           </ul>

@@ -24,14 +24,24 @@
   /* transition: var(--main-transition); */
   list-style: none;
 }
-.brand-logo  {
+.brand-logo {
   font-size: var(--small-font);
   text-transform: uppercase;
   text-decoration: none;
   color: var(--primary-color);
   letter-spacing: var(--main-spacing);
 }
-@media screen and (min-width: 768px){
+.navbar-btn button {
+  background-color: var(--main-black);
+  color: var(--main-white);
+  padding: 1.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -53,7 +63,7 @@
   .navbar-btn {
     display: none;
   }
-  .navbar-item{
+  .navbar-item {
     margin: 0 0 0 1rem;
   }
   .navbar-links {
@@ -75,5 +85,4 @@
     cursor: pointer;
     margin: 0 2rem;
   }
-
 }

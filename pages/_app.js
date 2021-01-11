@@ -8,10 +8,25 @@ import "../styles/ProductItem.css";
 import "../styles/ProductList.css";
 
 function MyApp({ Component, pageProps }) {
+  const [menuState, setMenuState] = React.useState({
+    isOpen: false,
+  });
+
+  const openHandler = () => {
+    setMenuState({
+      isOpen: !menuState.isOpen,
+    });
+  };
+  const closeHandler = () => {
+    setMenuState({
+      isOpen: false,
+    });
+  };
+
   return (
     <>
-      {/* <MobileNav /> */}
-      <Navbar />
+      <MobileNav />
+      <Navbar openMenu={openHandler} />
       <Component {...pageProps} />
     </>
   );
