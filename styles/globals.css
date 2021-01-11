@@ -79,6 +79,7 @@
 
 html,
 body {
+  padding: 60.67px 0 0 0;
   font-family: var(--font);
   background: var(--main-white);
   overflow-x: hidden;
@@ -88,7 +89,19 @@ body {
   width: 100%;
   font-size: 1.6rem;
 }
-
+@media screen and (min-width: 768px) {
+  body {
+    padding: 80.67px 0 0 0;
+    font-family: var(--font);
+    background: var(--main-white);
+    overflow-x: hidden;
+    color: var(--main-black);
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+}
 h1,
 h2,
 h3,

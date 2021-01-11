@@ -25,8 +25,8 @@ const navbar = (props) => {
               </Link>
             </li>
             <li className="navbar-item">
-              <Link href="/services">
-                <a className="navbar-single-link">services</a>
+              <Link href="/products">
+                <a className="navbar-single-link">products</a>
               </Link>
             </li>
             <li className="navbar-item">

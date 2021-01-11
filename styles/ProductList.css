@@ -1,0 +1,10 @@
+.productlist {
+  padding: 5rem 2rem;
+}
+.productlist-center {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 2rem;
+}

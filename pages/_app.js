@@ -1,9 +1,11 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import MobileNav from "../components/mobilenav";
+import Navbar from "../components/Navbar";
+import MobileNav from "../components/MobileNav";
 import "../styles/globals.css";
-import "../styles/navbar.css";
-import "../styles/mobilenav.css";
+import "../styles/Navbar.css";
+import "../styles/MobileNav.css";
+import "../styles/ProductItem.css";
+import "../styles/ProductList.css";
 
 function MyApp({ Component, pageProps }) {
   return (

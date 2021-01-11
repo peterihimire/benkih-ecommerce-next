@@ -12,20 +12,24 @@ const ProductsList = (props) => {
     );
   }
   return (
-    <ul>
-      {props.items.map((product) => (
-        // console.log(product)
-        <ProductItem
-          key={product.id}
-          id={product.id}
-          name={product.name}
-          image={product.image}
-          amount={product.amount}
-          price={product.price}
-          slug={product.slug}
-        />
-      ))}
-    </ul>
+    <div className="productlist">
+      <div className="productlist-center">
+        {/* <ul> */}
+        {props.items.map((product) => (
+          // console.log(product)
+          <ProductItem
+            key={product.id}
+            id={product.id}
+            name={product.name}
+            image={product.image}
+            amount={product.amount}
+            price={product.price}
+            slug={product.slug}
+          />
+        ))}
+        {/* </ul> */}
+      </div>
+    </div>
   );
 };
 
