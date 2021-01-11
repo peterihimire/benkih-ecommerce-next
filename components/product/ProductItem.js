@@ -5,7 +5,7 @@ const ProductItem = (props) => {
   return (
     // <li>
       <article>
-        <img src={props.image} alt={props.name} width='200px' height='200px' />
+        <img src={props.image} alt={props.name} width='250px' height='250px' />
         <div className="">
           <h5>{props.name}</h5>
         </div>

@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   padding: 1rem 2rem;
-  /* background: var(--mainWhite); */
+  background: var(--main-white);
   z-index: 2;
   box-shadow: 0 0 1.2rem 0 rgba(29, 28, 28, 0.849);
 }
@@ -36,7 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
 }
 @media screen and (min-width: 1170px) {
@@ -59,6 +59,7 @@
   .navbar-links {
     height: auto;
     display: flex;
+    align-items: center;
   }
   .navbar-links a {
     padding: 0.5rem 0;

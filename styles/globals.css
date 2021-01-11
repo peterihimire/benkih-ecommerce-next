@@ -79,9 +79,10 @@
 
 html,
 body {
-  padding: 60.67px 0 0 0;
+  /* padding: 60.67px 0 0 0; */
   font-family: var(--font);
-  background: var(--main-white);
+  /* background: var(--main-white); */
+  background-color: var(--main-grey);
   overflow-x: hidden;
   color: var(--main-black);
   height: auto;
@@ -89,11 +90,21 @@ body {
   width: 100%;
   font-size: 1.6rem;
 }
+.btn{
+  color: var(--main-white);
+  background-color: var(--primary-color);
+  padding: 1.5rem 4rem;
+  border: none;
+  font-weight: bolder;
+  border-radius: .5rem;
+  text-transform: capitalize;
+}
 @media screen and (min-width: 768px) {
   body {
-    padding: 80.67px 0 0 0;
+    /* padding: 80.67px 0 0 0; */
     font-family: var(--font);
-    background: var(--main-white);
+    /* background: var(--main-white); */
+    background-color: var(--main-grey);
     overflow-x: hidden;
     color: var(--main-black);
     height: auto;
