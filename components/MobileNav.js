@@ -1,11 +1,17 @@
 import React from "react";
 import Link from "next/link";
 
-const MobileNav = (props) => {
+const MobileNav = ({ openState, closeMenu }) => {
+  console.log(openState, closeMenu);
   return (
     <>
-      <div className="mobilenav-overlay" />
-      <div className="mobilenav">
+      <div
+        className={
+          openState ? "mobilenav-overlay transparent-bg" : "mobilenav-overlay"
+        }
+        onClick={closeMenu}
+      />
+      <div className={openState ? "mobilenav show-nav" : "mobilenav"}>
         <div className="mobilenav-logo">
           <Link href="/">
             <a>benkih</a>

@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-const navbar = (props) => {
+const navbar = ({ openMenu }) => {
+  console.log(openMenu);
   return (
     <nav className="navbar">
       <div className="navbar-center">
@@ -45,7 +46,7 @@ const navbar = (props) => {
               </Link>
             </li>
           </ul>
-          <div className="navbar-btn" onClick="">
+          <div className="navbar-btn" onClick={openMenu}>
             <button>menu</button>
           </div>
         </div>

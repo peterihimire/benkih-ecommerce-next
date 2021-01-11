@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <MobileNav />
+      <MobileNav closeMenu={closeHandler} openState={menuState.isOpen} />
       <Navbar openMenu={openHandler} />
       <Component {...pageProps} />
     </>
