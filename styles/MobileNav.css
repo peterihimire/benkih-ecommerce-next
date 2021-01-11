@@ -18,7 +18,7 @@
 .mobilenav {
   position: fixed;
   background: var(--main-white);
-  width: 50%;
+  width: 80%;
   height: calc(100% + 60px);
   top: 0px;
   left: 0;
@@ -109,4 +109,62 @@
   width: 100%;
   display: flex;
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+  .mobilenav-item {
+    margin: 1rem 0;
+  }
+  .mobilenav-item a {
+    padding: 0 0 0 2rem;
+    color: var(--main-black);
+    font-family: var(--sec-font-bold);
+    text-transform: capitalize;
+    font-size: var(--medium-font);
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+  }
+  .login-style a {
+    padding: 0 0 0 2rem;
+    color: var(--main-white);
+    font-family: var(--sec-font-bold) !important;
+    text-transform: capitalize;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    font-size: var(--medium-font);
+  }
+  .login-style {
+    margin: 1rem 0;
+  }
+  .signup-style a {
+    padding: 0 0 0 2rem;
+    color: var(--main-black);
+    font-family: var(--sec-font-bold);
+    text-transform: capitalize;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    font-size: var(--medium-font);
+  }
+  .signup-style {
+    margin: 1rem 0;
+  }
+  .mobilenav {
+    position: fixed;
+    background: var(--main-white);
+    width: 50%;
+    height: calc(100% + 60px);
+    top: 0px;
+    left: 0px;
+    z-index: 997;
+    color: var(--main-black);
+    /* box-shadow: 0 0 1.2rem 0 rgba(29, 28, 28, 0.849); */
+    transition: all 0.3s linear;
+    /* transform: translateX(-105%);
+    -webkit-transform: translateX(-105%); */
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+      0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  } 
 }
