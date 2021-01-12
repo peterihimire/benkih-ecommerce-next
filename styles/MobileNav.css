@@ -43,7 +43,7 @@
 .mobilenav-item a {
   padding: 0 0 0 2rem;
   color: var(--main-black);
-  font-family: var(--sec-font-bold);
+  font-family: var(--tet-font-bold);
   text-transform: capitalize;
   font-size: 3rem;
   width: 100%;
@@ -52,7 +52,7 @@
 }
 .mobilenav-footer {
   color: var(--main-white);
-  font-family: var(--sec-font-bold);
+  font-family: var(--tet-font-bold);
   text-transform: uppercase;
   position: absolute;
   margin: 60px 0 0 0;
@@ -85,7 +85,7 @@
 .signup-style a {
   padding: 0 0 0 2rem;
   color: var(--main-black);
-  font-family: var(--sec-font-bold);
+  font-family: var(--tet-font-bold);
   text-transform: capitalize;
   font-size: 3rem;
   width: 100%;
@@ -102,7 +102,7 @@
 .login-style a {
   padding: 0 0 0 2rem;
   color: var(--main-white);
-  font-family: var(--sec-font-bold);
+  font-family: var(--tet-font-bold);
   text-transform: capitalize;
   font-size: 3rem;
   width: 100%;
@@ -110,14 +110,13 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .mobilenav-item {
     margin: 1rem 0;
   }
   .mobilenav-item a {
     padding: 0 0 0 2rem;
     color: var(--main-black);
-    font-family: var(--sec-font-bold);
     text-transform: capitalize;
     font-size: var(--medium-font);
     width: 100%;
@@ -127,7 +126,6 @@
   .login-style a {
     padding: 0 0 0 2rem;
     color: var(--main-white);
-    font-family: var(--sec-font-bold) !important;
     text-transform: capitalize;
     width: 100%;
     display: flex;
@@ -140,7 +138,6 @@
   .signup-style a {
     padding: 0 0 0 2rem;
     color: var(--main-black);
-    font-family: var(--sec-font-bold);
     text-transform: capitalize;
     width: 100%;
     display: flex;
@@ -165,5 +162,5 @@
     -webkit-transform: translateX(-105%); */
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
       0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-  } 
+  }
 }

@@ -29,6 +29,20 @@
   src: local("roboto"),
     url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
 }
+/* TRUENO */
+@font-face {
+  font-family: "trueno";
+  src: local("trueno"),
+    url("../fonts/trueno/TruenoRg.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "trueno-bold";
+  src: local("trueno"), url("../fonts/trueno/TruenoBd.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
 
 :root {
   font-size: 62.5%;
@@ -55,6 +69,9 @@
   --sec-font-bold: roboto-bold, sans-serif;
   --sec-font-thin: roboto-thin, sans-serif;
   --sec-font-condensed-bold: roboto-condensed-bold, sans-serif;
+
+  --tet-font: trueno, sans-serif;
+  --tet-font-bold: trueno-bold, sans-serif;
 }
 
 * {
@@ -90,13 +107,13 @@ body {
   width: 100%;
   font-size: 1.6rem;
 }
-.btn{
+.btn {
   color: var(--main-white);
   background-color: var(--primary-color);
   padding: 1.5rem 4rem;
   border: none;
   font-weight: bolder;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   text-transform: capitalize;
 }
 @media screen and (min-width: 768px) {

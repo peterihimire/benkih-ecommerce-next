@@ -35,7 +35,7 @@ const MobileNav = ({ openState, closeMenu }) => {
           </li>
           <li className="mobilenav-item">
             <Link href="/contact">
-              <a>contact</a>
+              <a>FAQs</a>
             </Link>
           </li>
           <li className="login-style">
